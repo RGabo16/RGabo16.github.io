@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+   
+    <header id="titulo">
+        <h1> El Ahorcado</h1>
+    </header>
+   <main>
+    
+    <div id="muneco">
+        <div>
+            <!-- Aqui va el muneco-->
+            <img src="imagenes/avatars-LrV8voHTqB32jnW9-HzmABw-t240x240.jpg" id="stickman" alt="">
+        </div>
+        <div>
+            <p id="palabra">
+                
+            </p>
+            <div class="jugar">
+                <button id="jugar">
+                    Empezar Juego
+                </button>
+            </div>
+            <div class="respuesta">
+                <h2 id="intentos">intentos restantes: 6</h2>
+                <h2 id="aciertos"></h2>
+            </div>
+        </div>
+       
+    </div>
+    
+    <div id="letras">
+
+    </div>
+    <div id="piso">
+        <div>
+            <p id="msg"> </p>
+
+            <!-- Tabla de Resultados -->
+            <Table id="Resultados">
+
+
+                <tr>
+                    <td>Jugador</td> 
+                    <td>Puntaje</td>
+                    <td>Victorias</td>
+                    <td>Derrotas</td>
+                </tr>
+
+                <tr id="jugador1">
+
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+
+                <tr id="jugador2">
+
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </Table>
+
+        </div>
+        <div class="btn">
+            <button id="reinicio">
+                Reiniciar
+            </button>
+        </div>
+    
+    </main>
+    </div>
+
+</body>
+</html>
