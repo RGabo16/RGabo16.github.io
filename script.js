@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
             for (x in palabraMain){
                 if(palabraMain[x] != " " && isNaN(palabraMain[x])){
                     tamañoP+=1
-                    
+                     
                 }                
             }
         }
